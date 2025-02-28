@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <style>
+        .app-container{
+            font-size: 200%;
+            
+            height: 100%;
+            border-imag:blue;
+            border-top-left-radius: 00%;
+            border-bottom-right-radius: 00%;
+            
+            background-image:url(back.jpeg);
+            color:black;
+            width: 70%;
+            padding:1%
+    
+        }
+        
+        
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <center>
+        <h1>To-Do App</h1>
+    </center>
+    <center>
+        <input type="text" id="taskInput" placeholder="Add a new task..." size="35" height="50" />
+       <br>
+        <input type="datetime-local" id="taskDate" "/>
+       <br>
+        <button id="addTaskBtn">Add Task</button>
+    </center>
+        <div id="tasksList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
